@@ -69,16 +69,21 @@ public class Enemy {
         return dead;
     }
     
-    public String setName(){
-        return name;
+    public void setName(String name){
+        this.name = name;
     }
     
-    public int setHitPoint(){
-        return hitPoint;
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
     }
     
-    public int setAttack(){
-        return attack;
+    public void setAttack(int attack){
+        this.attack = attack;
     }
+
+    public void setDead(boolean dead){
+        this.dead = dead;
+    }
+
 }
 

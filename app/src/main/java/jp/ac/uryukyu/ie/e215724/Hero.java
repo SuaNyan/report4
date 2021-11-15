@@ -51,32 +51,38 @@ public class Hero {
             System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", name);
         }
     }
+
     public String getName(){
         return name;
     }
-    
+
     public int getHitPoint(){
         return hitPoint;
     }
-    
+
     public int getAttack(){
         return attack;
     }
-    
+
     public boolean getDead(){
         return dead;
     }
-    
-    public String setName(){
-        return name;
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
+    }
+
+    public void setAttack(int attack){
+        this.attack = attack;
+    }
+
+    public void setDead(boolean dead){
+        this.dead = dead;
     }
     
-    public int setHitPoint(){
-        return hitPoint;
-    }
-    
-    public int setAttack(){
-        return attack;
-    }
 }
 
